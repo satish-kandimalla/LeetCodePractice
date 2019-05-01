@@ -30,6 +30,7 @@ public class LC_20_InvalidParenthesis {
     public static void main(String args[]){
         LC_20_InvalidParenthesis lc = new LC_20_InvalidParenthesis();
         String s = "({";
+
         System.out.println(lc.checkIsValid(s));
     }
 }
